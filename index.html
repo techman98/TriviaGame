@@ -3,8 +3,8 @@
 
 <head>
     <title>Jeopardy!</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -12,8 +12,18 @@
 </head>
 
 <body>
-    <p>It's raining tacos.</p>
-    <script src="assets/javascript/game.js"></script>
+        <div class="timer"></div>
+        <p class="question">What 2+ 2?</p>
+        <input type="radio" name="answer1" value="wrong"> 3
+        <input type="radio" name="answer1" value="right"> 4
+        <input type="radio" name="answer1" value="wrong"> 7
+   
+        <p class="question">What is 4 + 6?</p>
+        <input type="radio" name="answer2" value="wrong"> 14
+        <input type="radio" name="answer2" value="wrong"> 8
+        <input type="radio" name="answer2" value="right"> 10
+
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
