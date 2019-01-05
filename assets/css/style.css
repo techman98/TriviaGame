@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 243, 203);
+}
+
+.questions {
+    background-color: rgb(231, 190, 114);
+    width: 90vw;
+    margin: 5vw -50vh;
+    min-height: 30vh;
+    border: 10px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    display: flex;
+    justify-content:center;
+    
+}
+
+b {
+    font-size: 32px;
+}
